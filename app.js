@@ -37,7 +37,7 @@ app.get('/newbook', (req, res) => res.render('newBook')); // add a new book
 
 app.get('/interested', (req, res) => res.render('notification')); // add a new book
 
-const mongoURI = 'mongodb://localhost:27017/books';
+const mongoURI = 'mongodb://admin:admin123@ds141720.mlab.com:41720/exchange-books';
 
 mongoose.connect(mongoURI);
 

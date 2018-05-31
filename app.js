@@ -158,4 +158,4 @@ app.delete('/deletebook/:id', authenticate, (req, res) => { // delete a book
 
 
 
-app.listen(3000, () => console.log('app is running on port 3000'));
+app.listen(process.env.PORT || 3000, () => console.log('app is running on port 3000'));

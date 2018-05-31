@@ -1,0 +1,64 @@
+<nav>
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo">bookjump</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down" id='navbar'>
+            <li id='username-nav'>
+            </li>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li class='newbook'>
+                <a href="/newbook">New Book</a>
+            </li>
+            <li class='mybooks'>
+                <a href="/books">My books</a>
+            </li>
+            <li class='interested'>
+                <a href="/interested">Interests</a>
+            </li>
+            <li class='register'>
+                <a href="/register">Create a new account</a>
+            </li>
+            <li class='login'>
+                <a href="/login">Sign in</a>
+            </li>
+            <li class='logout'>
+                <button class="waves-effect waves-light btn" id='signout' onclick=logout()>Logout</button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+    <li id='username-sidebar'>
+
+    </li>
+    <li>
+        <a href="/">Home</a>
+    </li>
+    <li class='newbook'>
+        <a href="/newbook">New Book</a>
+    </li>
+    <li class='mybooks'>
+        <a href="/books">My books</a>
+    </li>
+    <li class='interested'>
+        <a href="/interested">Interests</a>
+    </li>
+    <li class='register'>
+        <a href="/register">Create a new account</a>
+    </li>
+    <li class='login'>
+        <a href="/login">Sign in</a>
+    </li>
+    <li class='logout'>
+        <button class="waves-effect waves-light btn-small" id='signout' onclick=logout()>Logout</button>
+    </li>
+</ul>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="./javascripts/authentication/logout.js"></script>

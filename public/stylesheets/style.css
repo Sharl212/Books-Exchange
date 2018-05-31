@@ -1,0 +1,99 @@
+body{
+  background-color:#2980b9;
+}
+
+label,
+input{
+  color:white !important;
+}
+.container{
+  margin-top:5%;
+}
+
+nav{
+  background-color:#1a6597;
+}
+/* .logout{
+  margin-left:10%;
+} */
+.brand-logo{
+  margin-left:2%;
+}
+
+#result{
+  margin-top:5%;
+}
+
+#image{
+  max-width:350px;
+  max-height:300px;
+  border-radius:3%;
+}
+.card{
+  width:300px;
+  height:430px;
+  margin-left:3% !important;
+  border-radius:3%;
+}
+
+.card-content{
+  padding: 1% !important;
+}
+.card-title{
+  font-size:20px !important;
+  text-align:center;
+  line-height:20px !important;
+}
+
+h1,
+.welcome{
+  text-align:center;
+  color:white;
+  font-size:30px;
+  line-height:50px;
+}
+
+.username{
+  text-transform: capitalize;
+  text-align:center;
+  color:white;
+  font-size:50px;
+}
+
+.card-author{
+  text-align:center;
+  width:100%;
+  margin-bottom:5%;
+}
+
+.author-user{
+  text-transform: capitalize;
+  font-size:110%;
+}
+
+.bookId{
+  display: none;
+}
+
+#deletebutton{
+  background:transparent;
+  cursor: pointer;
+  border:none;
+  width:30px;
+  margin-left:90%;
+}
+
+.nav-username{
+  /* font-size:24px; */
+  /* transition: background-color .3s; */
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  display: block;
+  padding: 0 15px;
+  cursor: pointer;
+}
+ul li{
+  text-align: center;
+}
